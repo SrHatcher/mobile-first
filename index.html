@@ -25,29 +25,57 @@
                 <p>Traemos informacion en tiempo real de las tasas de cambio y las monedas mas importantes del mundo</p>
             </div>
             <section class="main-tables-container">
-                <div class="main-currency-table">
+                <div class="container-arrow-right" id="arrow-right"></div>
+                <div class="container-arrow-left" id="arrow-left"></div>
+                <div class="main-currency-table" id="currency-table">
                     <p class="currency-table--title"><b>Monedas</b></p>
                     <div class="currency-table--container">
                         <table>
                             <tr>
                                 <td class="table__top-left">Bitcoin</td>
-                                <td class="table__top-right table__right">$1.96 <span class=""></span></td>
+                                <td class="table__top-right table__right">$1.96 <span class="down"></span></td>
                             </tr>
                             <tr>
                                 <td>Ethereum</td>
-                                <td class="table__right">$0.07</td>
+                                <td class="table__right">$0.07<span class="stonks"></span></td>
                             </tr>
                             <tr>
                                 <td>Ripple</td>
-                                <td class="table__right">$2.17</td>
+                                <td class="table__right">$2.17<span class="down"></span></td>
                             </tr>
                             <tr>
                                 <td class="table__bottom-left">Stellar</td>
-                                <td class="table__bottom-right table__right">$4.96</td>
+                                <td class="table__bottom-right table__right">$4.96<span class="down"></span></td>
                             </tr>
                         </table>
                     </div>
-                    <div>
+                    <div class="currency-uptodate">
+                        <p><b>Actualizado:</b> 19 julio: 23:45</p>
+                    </div>
+                </div>
+                <div class="main-comisions-table" id="comisions-table">
+                    <p class="comisions-table--title"><b>Comisiones</b></p>
+                    <div class="comisions-table--container">
+                        <table>
+                            <tr>
+                                <td class="table__top-left">Bitcoin</td>
+                                <td class="table__top-right table__right">$12.96 <span class="down"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Ethereum</td>
+                                <td class="table__right">$13.07<span class="stonks"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Ripple</td>
+                                <td class="table__right">$13.15<span class="down"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom-left">Stellar</td>
+                                <td class="table__bottom-right table__right">$14.96<span class="down"></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="comisions-uptodate">
                         <p><b>Actualizado:</b> 19 julio: 23:45</p>
                     </div>
                 </div>
@@ -58,5 +86,7 @@
         <section></section>
     </main>
     <footer></footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
